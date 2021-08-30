@@ -3,5 +3,4 @@ kind: Guestbook
 metadata:
   name: guestbook-sample
 spec:
-  firstName : "John"
-  lastName : "Doe"
+  # Add fields here
