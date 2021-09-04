@@ -1,7 +1,7 @@
 apiVersion: webapp.example.com/v2
 kind: Guestbook
 metadata:
-  name: guestbook-sample
+  name: guestbook-sample-v2
 spec:
   firstName : "John"
   lastName : "Doe"
