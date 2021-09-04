@@ -31,7 +31,6 @@ type GuestbookStatus struct {
 
 //+kubebuilder:object:root=true
 //+kubebuilder:subresource:status
-//+kubebuilder:storageversion
 
 // Guestbook is the Schema for the guestbooks API
 type Guestbook struct {
