@@ -45,7 +45,7 @@ spec:
             description: GuestbookStatus defines the observed state of Guestbook
             type: object
         type: object
-    served: true
+    served: false
     storage: false
     subresources:
       status: {}
