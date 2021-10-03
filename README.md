@@ -5,7 +5,7 @@ There are two important components that a cluster would need to enable CRD versi
 
 ## Creation of the API(defining types.go):
 
-Following the quickstart from [kubebuilder](https://book.kubebuilder.io/quick-start.html?highlight=guestboo#create-an-api)
+Following the quickstart from [kubebuilder](https://book.kubebuilder.io/quick-start.html?highlight=guestboo#create-an-api), scaffolded the files. (you don't need to do this if you're cloning the repo)
 - kubebuilder create api --group webapp --version v1 --kind Guestbook
 
 
