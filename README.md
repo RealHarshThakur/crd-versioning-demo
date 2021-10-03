@@ -13,3 +13,7 @@ Following the quickstart from [kubebuilder](https://book.kubebuilder.io/quick-st
 - In the v1 branch, "webapp.example.com/v1" API will be the stored version and "webapp.example.com/v2" will be introduced to users. Additionally, we could add a deprecation warning on "webapp.example.com/v1" and start requesting users to move to "webapp.example.com/v2".
 - In the v2 branch, "webapp.example.com/v2" will be set as the stored version. Users can still view objects in "webapp.example.com/v1" but they should start migrating objects to  "webapp.example.com/v2" using Storage Version Migrator. 
 - In the v3, "webapp.example.com/v1" will no longer be a served version, therefore deprecating it. Users can no longer view objects in v1. 
+
+## To deploy a branch :
+- Run `make install`
+- Run `make deploy IMG=harshthakur/guestbook-controller`
